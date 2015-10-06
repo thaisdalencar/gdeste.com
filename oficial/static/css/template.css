@@ -1,0 +1,751 @@
+/*importar fontes*/
+@font-face {
+  font-family: lanenar;
+  src: url('../fonts/LAdNENAR_.ttf');
+}
+@font-face {
+  font-family: helvetica;
+  src: url('../fonts/helvetica/ultra.ttf');
+}
+@font-face {
+  font-family: robotoFina;
+  src: url('../fonts/roboto/Roboto-Thin.ttf');
+}
+@font-face {
+  font-family: robotoLight;
+  src: url('../fonts/roboto/Roboto-Light.ttf');
+}
+
+@font-face {
+  font-family: robotoMedia;
+  src: url('../fonts/roboto/Roboto-Medium.ttf');
+}
+
+@font-face {
+  font-family: caviarBold;
+  src: url('../fonts/caviar/caviarBold.ttf');
+}
+@font-face {
+  font-family: Canon;
+  src: url('../fonts/Canon/FeFCrm2.ttf');
+}
+@font-face {
+  font-family: folioItalico;
+  src: url('../fonts/folioItalico.ttf');
+}
+@font-face {
+  font-family: folioNegrito;
+  src: url('../fonts/folioNegrito.ttf');
+}
+@font-face {
+  font-family: folioNormal;
+  src: url('../fonts/folioNormal.ttf');
+}
+@font-face {
+  font-family: montserratRegular;
+  src: url('../fonts/montserrat/Montserrat-Regular.otf');
+}
+@font-face {
+  font-family: montserratBold;
+  src: url('../fonts/montserrat/Montserrat-Bold.otf');
+}
+@font-face {
+  font-family: montserratLigth;
+  src: url('../fonts/montserrat/Montserrat-Light.otf');
+}
+/*final importar fontes*/
+
+#logo img{
+  padding: 5px 0 0 0;
+}
+#navbar .navbar-nav a{
+  color: #14213D;
+  font-family: folioNegrito, Arial;
+  font-size: 20px;
+}
+#navbar .navbar-nav a:hover{
+	color: #bc6d0a;
+}
+.navbar-default .navbar-brand {
+   color: #FFFFFF;
+}
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-color: rgba(0, 0, 102, 0.1);
+}
+
+
+#itens{
+  padding: 5px 0 0 50px;
+}
+#itens a{
+  padding-left: 30px;
+}
+#tela1{
+	background-color: #14213D;
+  position: relative;
+    overflow: hidden;
+    border: 3px solid #ffffff;
+}
+
+/*testetesteprojeto*/
+#testeprojeto{
+  background-color: #FFFFFF;
+  border-top: 5px solid #eee;
+
+/*  position: relative;
+  overflow: hidden;*/
+}
+#divProjeto{
+  padding: 50px 50px 80px 50px;
+}
+.titleprojetos{
+  font-family: caviarBold;
+  color:#14213D;
+  font-size: 60px;
+  margin: 0;
+  margin-top: 50px;
+}
+.subtitleprojetos{
+  font-family: robotoLight;
+  color:#14213D;
+  font-size: 35px;
+  margin: 0;
+}
+#divTitleProjetos{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
+}
+
+/*huhuhuhuhuhuhu*/
+
+#tela2{
+	background-image: url(../images/aas_edit.png);
+  background-repeat: no-repeat;
+
+
+	/*background-color: #ffffff;
+  position: relative;*/
+}
+
+#titleEquipe img{
+  margin-bottom: 12px;
+}
+
+#tela3{
+  position: relative;
+  background-color: #fff;
+  -webkit-box-shadow: 0px -1px 26px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 0px -1px 26px 0px rgba(0,0,0,1);
+  box-shadow: 0px -1px 26px 0px rgba(0,0,0,1);
+}
+.thumbnail {
+  display: block;
+  padding: 0 !important;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+.thumbnail > img,
+.thumbnail a > img {
+  margin-right: auto;
+  margin-left: auto;
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #ffffff !important;
+}
+.thumbnail .caption {
+  padding: 9px;
+  color: #333;
+}
+#fotosGaleria{
+  display: none;
+}
+#direita{
+	padding: 10px 0 0 0; 
+}
+.direita{
+  padding-left: 5px;
+}
+#projetos{
+  padding-top: 50px;
+}
+.hrPublic{
+  width:100%;
+}
+#footer{
+  padding-top: 15px;
+}
+.back > a > img{
+  /*width: 50px;
+  height: 50px;
+  position: absolute;*/
+   bottom: 0;
+   position: fixed;   
+   height: 40px;
+   width: 40px;
+   z-index: 100;
+   right: 0pt;
+   margin: 1%;
+}
+#facebook {
+  padding: 0;
+}
+#facebook img{
+  padding: 0;
+  width: 33px;
+  height: 33px;
+}
+.titulo_projetos{
+  color: #ffffff;
+  /*font-size: 500%;*/
+  font-size: 60px;
+  font-family: Canon;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+.subtitulo_projetos{
+  color: #ffffff;
+  /*font-size: 500%;*/
+  font-size: 20px;
+  font-family: Canon;
+  text-align: center;
+
+}
+.linha_projeto{
+  margin-top: 0;
+  padding-top: 0;
+  height: 3px;
+  width: 500px;
+  right:30%;
+  left:30%;
+  position:relative;
+
+  /*margin-bottom: 50px;
+  height: 3px;
+  width: 300px;
+  right:35%;
+  left:35%;
+  padding-top: 50px;*/
+}
+.icon_mais{
+  width: 15px;
+  height: 15px;
+}
+#icones_proj{
+    padding-left: 22%;
+    width: 80%; 
+}
+#proj1{
+  background-image: url('../images/projetos_3.png');
+  background-size: 100px 100px;
+  width: 100px;
+  height: 100px; 
+}
+
+#proj2{
+  background-image: url('../images/projetos_1.png');
+  background-size: 100px 100px;
+  width: 100px;
+  height: 100px;  
+}
+
+#proj3{
+  background-image: url('../images/projetos_2.png');
+  background-size: 100px 100px;
+  width: 100px;
+  height: 100px;  
+}
+
+.texto_projetos{
+  margin-top: 80px;
+  margin-left: 100px;
+  float: left;
+}
+.texto_projetos p{
+  font-size: 20px;
+  color: #ffffff;
+  font-family: folioNormal;
+}
+.icon_proj{
+  margin-right: 5px; 
+}
+#texto_proj1{
+  display: none;
+ 
+}
+#texto_proj2{
+  display: none;
+}
+#texto_proj3{
+  display: none;texto_proj1
+}
+
+/*barra de pesquisa*/
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #14213D;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #14213D;
+  left: initial;
+  font-size: 14px;
+}
+/*final barra de pesquisa*/
+
+/*efeito eiqueta*/
+ .sticker {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    padding: 50px;
+}
+.example-1 .sticker-img {
+    background-image: url(../images/heroes-2.png);
+}
+.example-2 .sticker-img {
+    background-color: #ff4a85;
+}
+
+.hrProjetos{
+  width: 300px;
+
+}
+
+#label1{
+    display: none;
+}
+.dialog {
+    background-color: rgba(188, 109, 10, 0.9);
+    color: #FFFFFF;
+    display: none;
+    height: 140px;
+    left: 343px;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 97px;
+    width: 400px;
+    height: 400px;
+    padding: 100px 30px;
+    font-size: 20px;
+    /*z-index: 10;*/
+   /* margin-left: 100px;*/
+
+    /*-moz-border-radius: 170px;
+    -ms-border-radius: 170px;
+    -o-border-radius: 170px;
+    -webkit-border-radius: 170px;
+    border-radius: 170px;*/
+
+border-radius:50%;
+-moz-border-radius:50%;
+-webkit-border-radius:50%;
+}
+.dialog .close {
+    background-color: #bab7af;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    height: 36px;
+    line-height: 36px;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    width: 36px;
+
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    -webkit-border-radius: 18px;
+    border-radius: 18px;
+}
+/*parallax*/
+  * {margin:0; padding: 0;}
+    html, body {height:100%;}
+
+    /** formata elementos que tem backgrounds parallax **/
+    .bgParallax {
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+        min-height: 50%;       
+        background-position: 50% 0;
+        background-attachment: fixed;
+    }
+
+    /* Define backgrounds dos divs */
+    #tela4 {
+      background-image: url(../images/te.jpg);
+      color: #ffffff;
+    }
+    #tela5 {
+    /*    background-image: url(imagem1.jpg);*/
+        background-color: #FFFFFF;
+        padding-bottom: 50px;
+        -webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+        -moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+        -ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+        -o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+        box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    }
+    #tela6 {
+       
+        background-image: url(../images/cerebroColor4.png);
+        background-color: #bc6d0a;
+        background-repeat: no-repeat;
+        color: #FFFFFF;
+        -webkit-box-shadow: 0px -1px 26px 0px rgba(0,0,0,1);
+        -moz-box-shadow: 0px -1px 26px 0px rgba(0,0,0,1);
+        box-shadow: 0px -1px 26px 0px rgba(0,0,0,1);
+/*
+        background-color: #C05D19;*/
+      
+    }
+    #maisPublic{
+        padding-top: 20px;
+        margin-bottom: 80px;
+    }
+    .paddingTrabalhos{
+      padding-top: 10px;
+    }
+    .titulo{
+      text-align: center;
+      border-bottom: 2px solid #FFFFFF;
+      border-top: 2px solid #FFFFFF;
+      font-family: Canon;
+      margin-top: 40px;
+    }
+     #telapublic {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    #telaEquipe {
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 30%;
+    }
+
+    .corpo{
+        padding-top: 5px;
+        font-size: 17px;  
+        font-family: Candon;    
+    }
+    .public_title{
+        /*font-size: 500%;*/
+        font-size: 110px;
+        font-family: Canon;
+        text-align: center;
+        margin-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    /** Formata o article que vai o texto **/
+    .bgParallax article {
+        width: 70%;
+        text-align: center;
+        margin:0 auto;
+        padding:20% 0 0;
+    }
+
+    /** formata texto **/
+    article h1 {font-size:40px;}
+    article p {line-height: 30px; font-size:20px; margin-top:15px;}
+    article p a {color:#FFF; text-decoration:none; font-size:30px;}
+    }
+
+/*MORPH*/
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+/*efeito preto e branco*/
+.pb {
+-webkit-transition-duration: .50s;
+}
+.pb:hover {
+-webkit-transition-duration: .50s;
+-webkit-filter: grayscale(100%);
+}
+#ximg {
+  margin:0 auto;
+  padding:15% 0 0 5%;
+}
+
+#ximg img{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.pacRostos{
+  padding:15% 0 0 5%;
+}
+.rostinhos {
+  margin:0 auto;
+  padding-left:2%;
+  padding-bottom:1%;
+}
+.rostinhos img{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+#boxHardware {  
+    width: 220px;
+    height: 220px;
+    background:url(../images/icons_HARD.png);
+    border-radius:5px;
+    overflow:hidden;
+    /*margin-left: 140px;*/
+}
+#boxDesign {  
+    width: 220px;
+    height: 220px;
+    background:url(../images/icons_design.png);
+    border-radius:5px;
+    overflow:hidden;
+  /*  margin-left: 70px;*/
+}
+#boxSoftware {  
+    width: 220px;
+    height: 220px;
+    background:url(../images/icons_soft.png);
+    border-radius:5px;
+    overflow:hidden;
+    /*margin-right: 70px;*/
+
+}
+
+#boxMentores {  
+    width: 220px;
+    height: 220px;
+    background:url(../images/icons_mentores.png);
+    border-radius:5px;
+    overflow:hidden;
+   /*margin-right: 140px;*/
+
+}
+#iconEquipe{
+  
+  border: 2px solid red;
+
+}
+.testando{
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+#titleEquipe{
+  font-family: robotoFina;
+  color:#14213D;
+  font-size: 80px;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+}
+#subtitleEquipe{
+  font-family: montserratBold;
+  color:#14213D;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+#overlay{  
+    background:rgba(188,109,10,.75);
+    border: 2px solid #14213D;
+    text-align:center;
+    padding:40px 0 50px 0;
+    opacity:0;
+    border-radius: 5%;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+
+#boxHardware:hover #overlay {
+    opacity:1;
+}
+#boxDesign:hover #overlay {
+    opacity:1;
+}
+#boxSoftware:hover #overlay {
+    opacity:1;
+}
+#boxMentores:hover #overlay {
+    opacity:1;
+}
+
+#plus {  
+    font-family:Helvetica;
+
+    color:rgba(255,255,255,.85);
+    font-size:90px;
+}
+/*.tituloTela{2
+  color: #bc6d0a;
+}*/
+#divTela2{
+  padding: 50px 50px 150px 50px;
+}
+.insttitle{
+  color: #00a0ba;
+  font-size: 20px;
+}
+#membros{
+  
+}
+.divMembro{
+  float: left;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.fotoMembro {
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+  border: 3px solid #14213d;
+  
+}
+.lattes{
+  text-decoration: none;
+  font-style: italic;
+  font-size: 15px;
+  color: #14213d;
+
+}
+.lattes img{
+  margin-right: 5px;
+    width: 20px; 
+  height: 20px;
+}
+.institucional{
+ color: #bc6d0a;
+ font-family: montserratBold;
+}
+#footerGdeste{
+  width: 450px; 
+  height: 120px;
+}
+#footerifce{
+  width: 180px; 
+  height: 80px;
+}
+#boxProjetos{
+  border-radius: 2%;
+/*  width: 290px;*/
+  height: 350px;
+  padding-top: 20px;
+  background-color: #fafafa;
+  -webkit-box-shadow: 5px 11px 25px -10px rgba(195,195,195,1);
+  -moz-box-shadow: 5px 11px 25px -10px rgba(195,195,195,1);
+  box-shadow: 5px 11px 25px -10px rgba(195,195,195,1);
+ }
+ #boxProjetos:hover{
+  border: 1px solid #00a0ba;
+ }
+ #telaproj{
+  
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 40%;
+        margin-top: 40px;
+    }
+#tituloProjetos{
+  color:#14213d;
+  font-family: robotoMedia;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 6px solid #fff;
+}
+.descricaoProjetos{
+  text-align: center;
+  padding: 15px 5px 5px 5px;
+  font-size: 17px;
+
+}
+.icons{
+  margin-top: 40px;
+}
+.icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 50%;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+  padding-top: 6px;
+}
+
